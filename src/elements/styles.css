@@ -1,0 +1,84 @@
+.correction-container {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .correction-content {
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .correction-text {
+    margin: 0;
+  }
+  
+  .correction-text del {
+    text-decoration: line-through;
+    color: red;
+  }
+  
+  .correction-text ins {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .correction-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .correction-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .correction-btn.accept {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .correction-btn.dismiss {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .grammarly-next-button {
+    background-color: #4285F4; /* Grammarly blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .grammarly-next-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+  }
+  
+  .grammarly-next-button:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+  }
+  
+  .arrow-text {
+    margin-left: 5px;
+  }
+  
+  
+  /* Rest of your styles */
+  

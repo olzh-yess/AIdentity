@@ -52,3 +52,18 @@
   border-top: 2px solid rgba(13, 13, 13, 0.1);
   margin: 2rem 0;
 }
+
+bold {
+  background-color: rgb(255, 0, 0);
+  color: #616161;
+}
+
+.ai-selection {
+  background-color: rgba(255, 165, 0, 0.5); /* Orange with transparency */
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 2px;
+  text-decoration-style: wavy; /* Or 'solid' if you prefer */
+  opacity: 1;
+  transition: background-color 1s ease-out;
+}
