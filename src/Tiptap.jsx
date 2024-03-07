@@ -41,16 +41,13 @@ const Tiptap = () => {
 
 
       <div style={{ width: '40%', borderLeft: '1px solid #ccc', padding: '10px' }}>
-        {/* Placeholder for grammar tips */}
-        <h2>Cognitive Reappraisal</h2>
-        <p>Learn to think positively!</p>
+        <h2> Cognitive Reappraisal </h2>
+        <p> Learn to think positively! </p>
         <CorrectionSuggestion
           correction={{ original: 'image processing', suggestion: 'image-processing' }}
           editor={editor}
         />
       </div>
-
-
     </div>
   )
 }
